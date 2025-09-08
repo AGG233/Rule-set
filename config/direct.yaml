@@ -1,0 +1,12 @@
+rule-providers:
+  +<+.custom_direct>:
+    type: http
+    path: ./path/custom.yaml
+    proxy: DIRECT
+    url: https://raw.githubusercontent.com/AGG233/Rule-set/refs/heads/main/domain.yaml
+    behavior: classical
+    format: yaml
+    size-limit: 0
+    
+rules:
+  - RULE-SET,Custom,DIRECT
