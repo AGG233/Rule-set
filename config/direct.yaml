@@ -1,11 +1,11 @@
+rule-anchor:
+  domain: &domain {type: http, interval: 86400, behavior: domain, format: text}
+
 rule-providers:
-  +<+.custom_direct>:
-    type: http
-    path: ./path/custom.yaml
-    proxy: DIRECT
+  Custom:
+    <<: *domain
     url: https://raw.githubusercontent.com/AGG233/Rule-set/refs/heads/main/domain.yaml
-    behavior: classical
-    format: yaml
+    path: ./path/rule_set/custom/direct
     size-limit: 0
     
 rules:
