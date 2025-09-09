@@ -21,3 +21,4 @@
 +.linux.do
 +.ciyuancheng.net
 +.juejin.cn
++.firefox.com
