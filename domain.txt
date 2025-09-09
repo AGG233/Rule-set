@@ -3,15 +3,18 @@
 +.adobe.io
 +.nvidia.com
 +.tencent.com
+
 # 微软
 +.edge.microsoft.com
 +.msftconnecttest.com
+
 # 游戏
 +.DOMAIN,steamcdn-a.akamaihd.net
 +.cm.steampowered.com
 +.steamserver.net
 +.capcom.jp
 +.api.slg.capcom.jp
+
 # 浏览器
 +.baidu.com
 +.spring.io
