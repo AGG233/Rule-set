@@ -5,8 +5,6 @@ rule-providers:
   Custom:
     <<: *domain
     url: https://raw.githubusercontent.com/AGG233/Rule-set/refs/heads/main/domain.txt
-    path: ./path/rule_set/custom/direct
-    size-limit: 0
     
 +rules:
   - RULE-SET,Custom,DIRECT
