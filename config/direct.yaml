@@ -8,5 +8,5 @@ rule-providers:
     path: ./path/rule_set/custom/direct
     size-limit: 0
     
-rules:
++rules:
   - RULE-SET,Custom,DIRECT
