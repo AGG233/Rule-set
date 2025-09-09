@@ -16,8 +16,8 @@
 +.api.slg.capcom.jp
 
 # 浏览器
+start.spring.io
 +.baidu.com
-+.spring.io
 +.linux.do
 +.ciyuancheng.net
 +.juejin.cn
